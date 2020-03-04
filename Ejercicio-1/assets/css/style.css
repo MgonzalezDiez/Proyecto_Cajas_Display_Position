@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin: 5px;
+}
+
+.box {
+    border: 2px solid #808080;
+    height: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.box p {
+    text-align: left;
+}
+
+
+.caja {
+    width: 23%;
+    height: auto;
+    display: inline-block;
+}
+
+.caja p {
+    width: 100%;
+    padding-left: 30px;
+    text-align: left;
+    font-size: 20px;
+    margin: auto;
+}
+
+.caja img {
+    width: 60%;
+    height: 70%;
+    text-align: center;
+}
+
+.navbar {
+    width: 99%;
+    position: absolute;
+    background-color: green;
+}
+
+.navbar p {
+    fon text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#texto {
+    margin-top: 150px;
+    text-align: left;
+}
+
+#texto p {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
