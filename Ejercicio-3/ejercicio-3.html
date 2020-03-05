@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            border: 1px solid #808080;
+            height: 273px;
+            width: 40%;
+            display: inline-block;
+            position: relative;
+            left: 70px;
+            margin-left: 30px;
+            margin-top: 20px;
+        }
+
+        .caja {
+            /* width: 30%; */
+            border: 1px solid #808080;
+            height: auto;
+            margin: auto;
+        }
+
+        .dinamarca {
+            background-color: red;
+        }
+
+        .cruz1 {
+            position: absolute;
+            background-color: white;
+            height: 273px;
+            border: transparent;
+            top: 0px;
+            width: 50px;
+            left: 150px;
+            z-index: 1;
+        }
+
+        .cruz2 {
+            position: absolute;
+            background-color: white;
+            border: transparent;
+            top: 110px;
+            height: 50px;
+            width: 100%;
+            z-index: 2;
+        }
+
+        .emirates {
+            background-color: white;
+        }
+
+        .emirates_red {
+            position: absolute;
+            left: 0px;
+            width: 22%;
+            background-color: red;
+            border-color: transparent;
+            height: 273px;
+            z-index: 2;
+        }
+
+        .emirates_green {
+            position: absolute;
+            background-color: green;
+            border-color: transparent;
+            left: 22%;
+            width: 78%;
+            top: 0px;
+            height: 100px;
+        }
+
+        .emirates_black {
+            position: absolute;
+            background-color: black;
+            border-color: transparent;
+            left: 22%;
+            width: 78%;
+            top: 173px;
+            height: 100px;
+        }
+
+        .espana {
+            background-color: white;
+        }
+
+        .espanared1 {
+            position: absolute;
+            height: 91px;
+            width: 100%;
+            top: 0px;
+            background-color: red;
+            border-color: transparent;
+        }
+
+        .espanayellow {
+            position: absolute;
+            height: 91px;
+            width: 100%;
+            top: 91px;
+            background-color: yellow;
+            border: transparent;
+        }
+
+        .espanared2 {
+            position: absolute;
+            height: 91px;
+            width: 100%;
+            top: 182px;
+            background-color: red;
+            border-color: transparent;
+        }
+
+        .japon {
+            position: absolute;
+            background-color: red;
+            height: 150px;
+            width: 150px;
+            border-radius: 100%;
+            left: 38%;
+            top: 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box espana">
+            <span class="espanared1"></span>
+            <span class="espanayellow"></span>
+            <span class="espanared2"></span>
+        </div>
+
+        <div class="box dinamarca">
+            <span class="caja cruz1"></span>
+            <span class="caja cruz2"></span>
+        </div>
+
+        <div class="box emirates">
+            <span class="emirates_red"></span>
+            <span class="emirates_green"></span>
+            <span class="emirates_black"></span>
+        </div>
+        <div class="box">
+            <span class="japon"></span>
+        </div>
+    </div>
+</body>
+
+</html>
