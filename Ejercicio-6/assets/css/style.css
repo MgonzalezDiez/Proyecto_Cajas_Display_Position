@@ -1,0 +1,9 @@
+.ribbon{
+    position: relative;
+}
+.ribbon1{
+    position: absolute;
+    width: 55px;
+    left: 160px;
+    top: 160px;
+}
