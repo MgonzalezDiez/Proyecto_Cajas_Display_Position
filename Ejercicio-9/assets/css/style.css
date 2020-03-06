@@ -1,97 +1,110 @@
-body{
+body {
     font-family: sans-serif;
     margin-top: 0px;
     margin-left: 0px;
 }
-.navbar-brand{
+
+.navbar {
     height: 80px;
     width: 100%;
-}
-.navbar-dark{
     background-color: black;
 }
 
 .box {
     position: relative;
     margin-top: 0px;
-    height: 200px;
+    height: 250px;
     display: inline-block;
     background-color: #ccc;
 }
-.box #menu{
-    width: 400px;
-}
+
+
 .box-subT {
     position: absolute;
     margin-top: 0px;
-    height: 200px;
+    height: 250px;
     display: inline-block;
 }
-.box-subT p{
+
+.box-subT p {
     font-size: 18px;
     padding-left: 30px;
 }
-h1{
+
+h1 {
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-h2{
+
+h2 {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 30px;
     padding-top: 20px;
-    font-size: 40px;
+    font-size: 30px;
+    font-weight: 500px;
 }
 
-.titulo{
+.titulo {
     color: white;
-    font-size: 50px;
+    font-size: 0px;
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-img{
+img {
+    padding-top: 10px;
     background: transparent;
     width: 20px;
 }
 
-footer{
+footer {
     position: relative;
     background-color: gray;
     height: 35px;
     text-align: center;
     color: white;
 }
-footer i{
-    font-size: 22px;
+
+footer i {
+    font-size: 18px;
     padding-top: 5px;
 }
 
 .vertical-menu {
     width: 400px;
+    overflow-y: auto;
 }
-    
-.vertical-menu a {
-    background-color: #ccc;
+
+.vertical-menu ul {
+    font-size: 30px;
     color: black;
     display: block;
-    padding: 12px;
-    text-decoration: none;
+    padding-left: 12px;
+    margin-bottom: 15px;
 }
-    
-.vertical-menu a:hover {
-    background-color: #ccc;
+
+.vertical-menu li:hover {
+    background-color: #e7d7db;
 }
-    
-.vertical-menu a.active {
+
+.vertical-menu li.active {
     background-color: #ccc;
     color: black;
     font-size: 30px;
 }
+
 .vertical-menu li {
-    padding-left: 50px;
-    background-color: #ccc;
+    margin-left: 70px;
     color: blue;
-    font-size: 20px;
+    font-size: 18px;
+    list-style-type: disc;
+    cursor: pointer;
+
 }

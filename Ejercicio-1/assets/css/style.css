@@ -8,6 +8,7 @@ body {
 }
 
 .box {
+    position: relative;
     border: 2px solid #808080;
     height: auto;
     text-align: center;
@@ -40,7 +41,9 @@ body {
 }
 
 .navbar {
-    width: 99%;
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 100%;
     position: absolute;
     background-color: green;
 }
